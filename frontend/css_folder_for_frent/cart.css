@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.inner_product img{
+    height: 70vh;
+    width: 100%;
+}
+table{
+    border: 2px solid black;
+    margin: 34px;
+  margin-left: 21%;
+}
+table thead tr th{
+    border: 2px solid black;
+}
+table tbody tr td{
+    border: 2px solid black;
+}
+.product-name a{
+    color: black;
+    padding: 12px;
+}
+.product-quantity a{
+    color: black;
+    padding: 12px;
+}
+.product-quantity input{
+    margin: 12px;
+}
+ .product-remove a{
+color: black;
+font-size: 1.2rem;
+padding: 12px;
+}
+.product-thumbnail a img{
+    height: 21vh;
+    margin: 12px;
+}
+.product-price{
+    padding: 12px;
+}.subtotal{
+    padding: 12px;
+}body{
+    background-color: whitesmoke;
+}
+.checkout-btn a{
+    color: black;
+    font-weight: 750;
+}.checkout-btn button:hover{
+    font-size: 1.2rem;
+}
+ .checkout-btn button{
+    margin-left: 64%;
+    margin-bottom: 2%;
+    padding: 14px;
+    border: none;
+    background-color: rosybrown;
+    border-radius: 22px;
+    margin-top: -14px;
+    width: 14%;
+    cursor: pointer;
+}
+.your-order{
+    margin: 6%;
+    margin-left: 16%;
+    background-color: whitesmoke;
+    display: inline-block;
+}.your-order h5{
+    margin-bottom: 12px;
+    font-size: 1.5em;
+    color: darkblue;
+    margin-top: -53%;
+}
+.single-item-content a{
+    color: black;
+    
+}
+.single-item-content{
+    margin-top: -44%;
+    margin-left: 61%;
+}
+.single-item-content span{
+    color: black;
+}.single-item-remove a
+{
+    margin-left: 102%;
+    color: black;
+}.single-item-remove{
+    margin-top: -18%;
+}
+.single-item-thumb img{
+    height: 12vh;
+}.single-method{
+    margin-left: 77%;
+    font-size: 1.2rem;
+}
+#section{
+    display: flex;
+}.login2{
+    margin-top: 30px;
+    margin-left: 13%;
+    font-size: 2rem;
+    color: darkblue;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}.login-form{
+    margin: 12px;
+}
+form{
+    width: 24vw;
+    margin-top: 10px;
+    /* background-color: rgb(196, 148, 241); */
+    padding: 13px;}
+    form input{
+        margin-top: 12px;
+        width: 17vw;
+        height: 6vh;
+        text-align: center;
+        border-radius: 5px;
+        border: 2px solid black;
+        font-weight: 800;
+        color: blueviolet;
+        margin-left: 63%;
+    }
+    label{color: blueviolet;
+        font-size: 1.4rem;  font-weight: 700;   
+    }
+    .btn4{
+        margin: 12px;
+        font-size: 1.2rem;
+        margin: 16px;
+        background-color: lavender;
+        padding: 4px;
+        width: 14vw;
+        border-radius: 12px;
+    }
+    .reg{
+        font-size: 2rem; color: darkblue;
+        font-weight: bold;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin-top: -35px;
+        margin-left: 28%;
+    }
+    .login-form2{
+        margin-left: 12px;
+    }
+    .email{
+        margin: 12px;
+    }
+    .field_error{
+        color: red;
+    }
+    .form-input{ 
+    font-size: 1.2rem;
+    font-weight: 800;}
+    .order-details-count-total h5{
+        color: darkblue;
+        margin-top: 17px;
+        font-size: 1.2rem;
+    }.radio{
+        margin-left: -106px;
+    }.sub{
+    margin-left: -32px;
+    width: 24vw;
+    height: 7vh;
+    font-size: 1.2rem;
+    background-color: antiquewhite;
+    }.sub:hover{
+        font-size: 2rem;
+        color: black;
+        background-color: lightgray;
+        cursor: pointer;
+    }
+    .order-details-count-total{
+        margin-top: -5%;
+    margin-left: 17%;
+    }
+
+    .address span{
+        font-weight: 800;
+    }.address{
+        margin-top: 38px;
+        background-color: lightgray;
+        width: 30vw;
+        border-radius: 12px;
+        margin-left: 12%;
+         padding: 10px;
+         text-align: center;
+    }
+    .payment span{
+        font-weight: 800;
+        
+        
+    }.payment{
+        text-align: center;
+        margin-left: 50%;
+        padding: 10px;
+       border-radius: 12px;
+        background-color: lightgrey;
+        margin-top: 13px;
+        width: 30vw;
+        margin-bottom: 4%;
+    }
+    .thanks{
+    justify-content: center;
+    text-align: center;
+    color: royalblue;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    }.add{
+        background-color: powderblue;
+    }.add:hover{
+        background-color: blueviolet;
+        font-size: 1.2rem;
+    }
+    .add a{
+        color: black;
+        margin: 12px;
+    }.product-name1 img{
+        height: 12vh;
+    }

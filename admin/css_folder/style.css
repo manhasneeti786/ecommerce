@@ -1,0 +1,67 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box ;
+    
+}
+  body{
+    /* background: url(img/scenary.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center; */
+       display: flex;
+    justify-content: center;
+     background-color: rgb(201, 173, 227);
+}
+.login{
+    padding: 30px;
+    margin-top: 10%;
+    border: 2px solid rgb(167, 86, 243);
+    border-radius: 10px;
+    /* background-color: aquamarine;    */
+}
+form{
+    margin: 60px;
+}
+.user{
+    margin-top: 15px;
+    background-color: white;
+    border-radius: 9px;
+    margin-bottom: 12px;
+}
+.label{
+    font-weight: 800;
+    font-size: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-right: 120px;
+}
+.pass{
+    border-radius: 9px;
+    margin-top: 15px;
+    background-color: white;
+}
+.submit{
+    color: white;
+    border-radius: 25px;
+    background-color: blueviolet;
+    margin-top: 12px;
+    padding: 14px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    width: 120%;
+}
+.box{
+    text-align: center;
+    font-size: 2.2rem;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 39px;
+}
+.input-box input{
+    width: 120%;
+    padding: 12px;
+}
+.field_error{
+    margin-top: -34px;
+    margin: 52px;
+    color:red;
+}

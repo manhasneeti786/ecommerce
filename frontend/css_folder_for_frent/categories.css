@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#pro{
+    display: flex;
+}
+.inner_product img{
+height: 70vh;
+width: 100%;
+}.inner-under a{
+    margin-left: 219px;
+    color: black;
+    font-weight: bold;
+    font-size: 2rem;
+}
+.inner1_product img{
+    height: 60vh;
+    width: 100%;
+}
+.shirts-men img{
+    width: 18vw;
+    margin: 100px;
+
+}.prot img{
+    height: 48vh;
+    margin-top: 56px;
+    margin-left: 43%;
+}
+#content-main{
+    display: flex;
+    /* flex-wrap: wrap; */
+    
+    margin: 30px;
+}.add a:hover{
+    font-size: 1.2rem;
+    color: black;
+    background-color: lightgray;
+}
+.add a{
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+    padding: 12px;
+    font-weight: 900;
+}
+.add{
+    margin-top: 18%;
+    margin-left: -6%;
+}.wishlist{
+    margin-top: -12%;
+    margin-left: 77%;
+}.wishlist a{
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+    padding: 12px;
+    font-weight: 900;
+}.wishlist a:hover{
+    font-size: 1.2rem;
+    color: black;
+    background-color: lightgray;
+}
+.men li a{
+    color: brown;
+}
+.mrp li{
+    color: brown;}
+
+.mrp2{
+    margin-top: 2%;
+}
+.mrp3{
+   margin-top: 8%;
+} .mai{
+    margin-left: 208px;
+    margin-top: 13px;
+}
+.product-name{
+    flex-wrap: wrap;
+    margin-top: 8%;
+    margin-left: 18%;
+    /* background-color: aquamarine; */
+}
+.product-name h2{
+    margin-bottom: 30px;
+}
+ /* .pro-info{
+    margin-top: 22%;
+    margin-left: 14px;
+}  */
+
+.sin-description{
+    margin-top: 7%;
+   
+} 
+.sin-des{
+    margin-top: 5%;
+    margin-left: 27px;
+}.sin-desc{
+    margin-top: 12px;
+}.description{
+    margin-left: 12%;
+}.description span{
+    color: blueviolet;
+    font-size: 2rem;
+    font-weight: 700;
+}
+.pro-infom{
+    margin-top: 25px;
+    margin-left: 5%;
+    margin-bottom: 50px;
+    margin-right: 21%;
+}
+.input{
+    margin: 45px;
+    border: 2px solid black;
+    border-radius: 6px;
+    height: 9vh;
+    width: 23vw;
+}
+.input-2{
+    margin-left: -21px;
+    border: 2px solid black;
+    border-radius: 4px;
+    height: 8vh;
+    width: 21vw;
+}
+.input-3{
+    margin-left: 21px;
+    border: 2px solid black;
+    border-radius: 4px;
+    height: 8vh;
+    width: 21vw;
+}
+#message{
+    border: 2px solid black;
+    border-radius: 4px;
+    margin-left: 44px;
+    margin-top: -23px;
+    height: 36vh;
+    width: 69vw;
+}
+.btn2:hover{
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+.btn2{
+    margin-left: 44px;
+    margin-top: 17px;
+    border-radius: 6px;
+    padding: 6px;
+    height: 11vh;
+    color: white;
+    width: 69vw;
+    background-color: blueviolet;
+    font-size: 1.4rem;
+    font-weight: 900;
+    margin-bottom: 57px;
+}
+.h3cont{
+    margin-bottom: -8pc;
+   margin-left: 30%;
+   margin-top: 40px;
+    font-size: 2rem;
+    font-weight: bold;
+    color: blueviolet
+}
+form{
+    background-color: lavender;
+    border: 2px solid blueviolet;
+    margin: 171px;
+}
+ form input{
+    background-color: beige;
+    text-align: center;
+    font-weight: bold;
+}
+form textarea{
+    background-color: beige;
+    text-align: center;
+    padding: 22px;
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+.main_products{
+ position: relative;
+ text-align: center;
+ color: rgb(195, 2, 144);
+ /* background-color: brown; */
+}.inner-content{
+    position: absolute;
+    top: 44%;
+    left: 17%;
+    font-size: 4rem;
+    font-weight: bold;
+}
+#men-section{
+    display: flex;
+    flex-wrap: wrap;
+}
+.main-pro img{
+    height: 63vh;
+    margin-left: 171px;
+    margin-top: 64px;
+    border: 2px solid black;
+    border-radius: 11px;
+    padding: 14px;
+
+}

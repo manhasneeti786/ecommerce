@@ -1,0 +1,314 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    z-index: index 0;
+}
+section#main-pro-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 130vh;
+}
+.prot {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 12px;
+    flex-direction: column;
+}
+span.boxing a{
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.navbar{
+    height: 10vh;
+    display: flex;
+    background-color:black;
+    color: white;
+    position: fixed;
+    z-index: 50;
+    top: 0;
+    width: 100%;
+}
+.logo{
+    color:red;
+    align-self: center;
+    font-size: 35px;
+    text-decoration: none;
+    cursor:default;
+    font-weight: bolder;
+}
+.logo li{
+    position:relative;
+    border: 2px solid transparent;
+}
+.logo li:hover{
+    border: 2px solid white;
+}
+ul{
+    list-style-type: none;
+}
+.icons{
+    
+    display:flex;
+    margin: 30px;
+    font-size: x-large;
+    align-self: center;
+    text-decoration: none;
+}
+.icons li a {
+    position: relative;
+    border: 2px solid transparent;
+}
+
+.icons li a:hover {
+   /* border: 2px solid white; */
+   color: rgb(189, 163, 214);
+   font-size: 1.8rem;
+}.add_cart{
+    margin-top: 32px;
+    font-size: 1.4rem;
+}.add_cart:hover{
+    color: rgb(189, 163, 214);
+    font-size: 1.8rem;
+   
+}.add_cart a:hover{
+    color: rgb(189, 163, 214);
+}
+/* .dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+} */
+
+/* .dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a {
+    color: #333;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color:cornsilk;
+} */
+a {
+    text-decoration: none;
+    color: white;
+}  
+
+li{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+#inbtn{
+    width: 130px;
+    height: 2em;
+}
+.serch{
+    margin: 4px;
+}.myorder:hover{
+    font-size: 1.7rem;
+    color: rgb(189, 163, 214);
+}
+#inbtn:hover{
+    border: 3px solid orange;
+}
+.btn{
+    background-color: coral;
+    cursor: pointer;
+    margin-left: -47px;
+    padding: 5px;
+}
+.container{
+    background-color: bisque;
+    height: 80vh;
+}
+img{
+    mix-blend-mode: multiply;
+    width: 42%;
+}
+.content{
+    padding: 12px;
+    height: 2000px;
+    margin-top: 4.5%;
+    margin-left: 30px;
+}
+.box{
+    padding-top: 0%;
+    font-size: 88px;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    bottom: 350px;
+}
+#shop-logo {
+    width: 24vw;
+    margin-left: 19%;
+    margin-top: 20%;
+    text-align: center;
+    background-color: coral;
+    border-radius: 100%;
+    font-size: 50px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 170px;
+    font-size: 25px;
+    font-weight: bolder;
+    padding: 0;
+}
+#contact{
+    font-size:25px;
+    font-weight:bolder;
+    display:flex;
+    position: relative;
+    justify-content: left;
+}
+.contact-drop{
+    margin: 7px;
+    display: flex;
+    position: relative;
+    justify-content:left;
+    font-weight:lighter; 
+}
+#feature{
+    display: flex;
+    justify-content: space-around;
+}
+.boxs img{
+    height: 32vh;
+    width: 77%;
+    margin-left: -10%;
+}
+h2{
+    text-align: center;
+    font-size:2.5rem;
+    font-weight: 800; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.boxs-2 img{
+    margin-top: 17px;
+    height: 24vh;
+    width: 98%;
+    margin-left: -17%;
+}
+
+.boxs-3 img{
+    margin-top: 25px;
+    height: 30vh;
+    width: 101%;
+    margin-left: 16%;
+}
+.design{
+    margin-top: 17px;
+}
+h4{
+    margin-top: 61px;
+    text-align: center;
+    color: black;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.prot{
+    display: flex; 
+    flex-wrap: wrap;
+     padding: 12px;
+}.prot img{
+    height: 49vh;
+    margin-top: 56px;
+}
+.inner-under a{
+    margin-left: 219px;
+    color: black;
+    font-weight: bold;
+    font-size: 2rem;
+}
+.fa{
+    margin-top: 9px;
+    font-size: 2rem;
+}
+.login{
+    margin-left: 12px;
+}
+.htc_qua{
+    color: red;
+    margin-left: -16px;
+}
+.mai{
+    margin-left: 208px;
+    margin-top: 13px;
+    
+}.wish{
+margin-top: 14px;
+margin-left: 15px;}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 310px;
+    font-size: 25px;
+    font-weight: bolder;
+    padding: 0;
+    margin-top: 3%;
+}
+.contact{
+    font-size:25px;
+    font-weight:bolder;
+    display:flex;
+    position: relative;
+    justify-content: left;
+    margin-bottom: 1%;
+}
+.contact-drop{
+    margin: 7px;
+    display: flex;
+    position: relative;
+    justify-content:left;
+    font-weight:lighter; 
+    opacity: 0.8;
+}
+.policy{
+    font-size: 25px;
+    font-weight: bolder;
+    margin-top: -7%;
+    margin-left: -46%;
+}
+.policy-drop{
+    margin: 7px;
+    margin-left: 16%;
+    display: flex;
+    position: relative;
+    justify-content:left;
+    font-weight:lighter;
+    opacity: 0.8; 
+}
+.addr{
+    margin-top: -10%;
+    margin-left: 40%;
+    font-size: 25px;
+    font-weight: bolder;
+}
+.addd{
+    margin-left: 40%;
+    font-weight: lighter;
+    opacity: 0.8;
+}
